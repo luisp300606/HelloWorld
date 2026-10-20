@@ -66,9 +66,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOMBRE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgK-YH-tMZ">
-                                <rect key="frame" x="52.999999999999993" y="228" width="75.333333333333314" height="30"/>
+                                <rect key="frame" x="53" y="228" width="320" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="jpD-XH-fCt"/>
                                     <constraint firstAttribute="height" constant="30" id="kNv-mU-xIW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -86,9 +85,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mmh-VK-0CM" firstAttribute="bottom" secondItem="DgK-YH-tMZ" secondAttribute="bottom" constant="526" id="2Ow-cP-EKs"/>
-                            <constraint firstItem="mmh-VK-0CM" firstAttribute="trailing" secondItem="DgK-YH-tMZ" secondAttribute="trailing" constant="20" id="6dd-67-xSz"/>
                             <constraint firstItem="mmh-VK-0CM" firstAttribute="bottom" secondItem="DgK-YH-tMZ" secondAttribute="bottom" constant="526" id="Juq-Qs-4zx"/>
-                            <constraint firstItem="DgK-YH-tMZ" firstAttribute="leading" secondItem="mmh-VK-0CM" secondAttribute="leading" constant="53" id="MlQ-gy-CHE"/>
                             <constraint firstItem="mmh-VK-0CM" firstAttribute="trailing" secondItem="DgK-YH-tMZ" secondAttribute="trailing" constant="20" id="RpZ-ia-DI5"/>
                             <constraint firstItem="DgK-YH-tMZ" firstAttribute="leading" secondItem="mmh-VK-0CM" secondAttribute="leading" constant="53" id="Zdg-cc-rOy"/>
                             <constraint firstItem="DgK-YH-tMZ" firstAttribute="top" secondItem="mmh-VK-0CM" secondAttribute="top" constant="66" id="h6c-Ae-jSe"/>
